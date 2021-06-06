@@ -1,0 +1,53 @@
+.App {
+  overflow-y: hidden;
+  height: 100%;
+    width: 100%;
+    inline-size: min-;
+
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  left:110px;
+  top:-15px;
+  
+  font-size: calc(20px + 2vmin);
+  font-style: poppins ;
+  color : rgb(7, 6, 6);
+} 
+
+.App-he {
+
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  min-height: 50vh;
+  position: fixed !important;
+  left:400px;
+  top: 3px;
+
+  font-size : calc(8px + 2vmin);
+  color : rgb(7, 6, 6);
+}
+
+.App-she {
+  overflow-wrap: break-all;
+
+  min-height: 50vh;
+  position: fixed !important;
+  left:600px;
+  top: 3px;
+
+  font-size: calc(8px + 2vmin);
+  color : rgb(7, 6, 6);
+}
+
+.App-search {
+  
+  position: relative;
+  left:60px;
+  bottom: 1264.5px;
+}
